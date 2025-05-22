@@ -3,7 +3,7 @@ import ast
 
 def extract_plot_section(wikitext):
     """
-    Attempt to extract the 'Plot' section from wiki markup using regex, 
+    Attempt to extract the 'Plot' section from wiki markup using regex, dd
     then fall back to splitting if needed.
     """
     # Pattern to capture text after a line that starts with "== Plot ==" 
